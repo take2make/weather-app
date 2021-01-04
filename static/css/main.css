@@ -1,0 +1,45 @@
+#main  {
+    padding-top: calc(70px);
+}
+
+@media (min-width: 992px) {
+    #main {
+      padding-top: calc(104px);
+    }
+}
+
+.btn-outline-primary {
+  color: #212529;
+  border-color: #212529;
+}
+
+.btn-outline-primary:hover{
+  border-color: #212529;
+  background-color: #212529;
+}
+
+.btn-outline-success {
+  color: #198754;
+  border-color: #198754;
+}
+
+.btn-check:focus+.btn-outline-primary, .btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0,0,0,.3);
+}
+
+.btn-check:active+.btn-outline-primary:focus, .btn-check:checked+.btn-outline-primary:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus, .btn-outline-primary:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0,0,0,.3);
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #212529;
+  box-shadow: 0 0 0 0.25rem rgba(0,0,0,.3);
+}
+
+.alert-danger {
+  color: #212529;
+  border-color: #198754;
+  background-color: #61c797;
+}
